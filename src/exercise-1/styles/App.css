@@ -1,0 +1,42 @@
+nav {
+    background-color: gray;
+    height: 50px;
+}
+
+ul {
+    float: right;
+    margin-right: 50px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    margin-left: 50px;
+}
+
+a:link {
+    text-decoration:none;
+    color: black;
+}
+
+a:visited, a:active {
+    text-decoration:underline;
+    color: black;
+}
+
+.text {
+    line-height: 2em;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 1.5em;
+    color: gray;
+}
+
+.text div {
+    margin-bottom: 20px;
+}
+
+.homelink {
+    color: red !important;
+}
